@@ -1,0 +1,48 @@
+:root {
+    --background-color: hsl(30, 54%, 90%);
+    --card-color: hsl(0, 0%, 100%);
+    --footer-color: hsl(228, 45%, 44%); 
+}
+
+* {
+    padding: auto;
+    margin: auto;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'young-serif', serif;
+}
+
+main {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 30rem;
+
+    background-color: var(--card-color);
+    border-radius: .625rem;
+    padding: 1.25rem;
+    margin: 3.125rem auto;
+}
+
+header {
+
+}
+
+header img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer a { 
+    color: var(--footer-color); 
+    text-decoration: none;
+}
