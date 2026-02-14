@@ -1,7 +1,12 @@
 :root {
     --background-color: hsl(30, 54%, 90%);
     --card-color: hsl(0, 0%, 100%);
-    --footer-color: hsl(228, 45%, 44%); 
+    --footer-color: hsl(228, 45%, 44%);
+    --h1-color: hsl(24, 5%, 18%);
+    --p-color: hsl(30, 10%, 34%); 
+    --prep-bg-color: hsl(330, 100%, 98%);
+    --prep-h3-color: hsl(332, 51%, 32%);
+    --h2-color: hsl(14, 45%, 36%);
 }
 
 * {
@@ -12,6 +17,8 @@
 body {
     background-color: var(--background-color);
     font-family: 'young-serif', serif;
+    font-size: .625rem;
+    color: var(--p-color);
 }
 
 main {
@@ -20,21 +27,51 @@ main {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    max-width: 30rem;
+    max-width: 25rem;
 
     background-color: var(--card-color);
     border-radius: .625rem;
     padding: 1.25rem;
-    margin: 3.125rem auto;
+    margin: 3rem auto;
 }
 
 header {
-
+    margin: 0;
 }
 
 header img {
     width: 100%;
     border-radius: 8px;
+}
+
+h1{
+    color: var(--h1-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    padding: 1rem 0 .625rem;
+}
+
+.preperation {
+    background-color: var(--prep-bg-color);
+    border-radius: .625rem;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.25rem;
+    margin-top: 1rem;
+}
+
+.preperation h3 {
+    color: var(--prep-h3-color);
+    font-size: 1rem;
+    margin-bottom: .625rem;
+}
+
+h2 {
+    color: var(--h2-color);
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: .625rem;
 }
 
 footer { 
