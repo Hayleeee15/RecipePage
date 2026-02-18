@@ -10,9 +10,16 @@
     --hr-color:hsl(30, 18%, 87%);
 }
 
-* {
-    padding: auto;
-    margin: auto;
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, picture, video{
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -23,11 +30,9 @@ body {
 }
 
 main {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 100vh;
     max-width: 25rem;
 
     background-color: var(--card-color);
@@ -36,12 +41,7 @@ main {
     margin: 3rem auto;
 }
 
-header {
-    margin: 0;
-}
-
 header img {
-    width: 100%;
     border-radius: 8px;
 }
 
@@ -56,7 +56,6 @@ h1{
 .preperation {
     background-color: var(--prep-bg-color);
     border-radius: .625rem;
-    box-sizing: border-box;
     width: 100%;
     padding: 1rem;
     margin: 1rem;
@@ -114,6 +113,9 @@ td {
 
 footer { 
     font-size: .75rem; 
+
+    position: absolute;
+    margin-bottom: .75rem;
     text-align: center; 
 }
 
