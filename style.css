@@ -27,6 +27,11 @@ body {
     font-family: 'young-serif', serif;
     font-size: 1rem;
     color: var(--p-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -115,9 +120,7 @@ td {
 footer { 
     font-size: .75rem; 
 
-    position: absolute;
     margin-bottom: .75rem;
-    text-align: center; 
 }
 
 footer a { 
