@@ -1,7 +1,28 @@
-In this simple recipe page, I used semantic html tags in order to have a clean layout. 
+# Recipe Card 🚀
 
-This also helpped me with a more smooth style process.
+## Overview
+This is a simple recipe card that uses unorderd lists, ordered list, and a table.
 
-Within the css, I used flex to help with the layout, and a root section for the colors.
+### Built With
+🔴 Semantic HTML
 
-An updated "reset" was added to the CSS to improve unity within the code.
+🔴 CSS Custom Properties
+
+🔴 CSS Flex
+
+### Preview
+
+<div align="left">
+  <div>
+    <b>Mobile Design:</b>
+  </div>
+  <div>
+    <img src="./design/Recipe-mobile.png" alt="Mobile Preview" width="250">
+  </div>
+  <div>
+    <b>Desktop Design:</b>
+  </div>
+  <div>
+    <img src="./design/Recipe-desktop.png" alt="Desktop Preview" width="500">
+  </div>
+</div>
